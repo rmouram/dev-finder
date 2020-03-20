@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const routes = require('./routes')
-
+const cors = require('cors')
 mongoose.connect('mongodb+srv://romulo:12345@cluster0-ocqa5.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
